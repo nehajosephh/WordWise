@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What You Need</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/styles/style.css" type="text/css">
+
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>What You Need</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#classes">Classes</a></li>
+                    <li><a href="#subscribe">Subscribe</a></li>
+                </ul>
+            </nav>
+            
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h2>Your daily source of divine inspiration. </h2>
+                <p>Find comfort and guidance in every situation.</p>
+            </div> <br>
+        <div class="form-container">
+            <form action="{{ url_for('get_verse') }}" method="post">
+                <label for="feeling">How do you feel now ?</label> <br>
+                <input type="text" id="feeling" name="feeling" required><br>
+                <button type="submit">Find Verse</button>
+            </form>
+        </div>
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Result</title>
+    <link rel="stylesheet" href="/static/styles/result.css" type="text/css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>What You Need</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#classes">Classes</a></li>
+                    <li><a href="#subscribe">Subscribe</a></li>
+                </ul>
+            </nav>
+            
+        </div>
+    </header>
+
+    <main>
+        <h1>Result</h1>
+        <p>You're feeling: <strong>{{ user_input }}</strong></p>
+        <p>Here's a Bible verse for you:</p>
+        <blockquote>{{ selected_verse }}</blockquote>
+    </main>
+</body>
+</html>
