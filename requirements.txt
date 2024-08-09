@@ -8,5 +8,6 @@ MarkupSafe==2.1.5
 Werkzeug==3.0.3
 waitress==2.1.2 
 transformers==4.42.4
-torch==2.3.1
-tensorflow==2.16.2
+torch==2.3.1  # If using PyTorch
+tensorflow==2.11.0  # Should match with tf-keras
+tf-keras==2.11.0
