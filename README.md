@@ -45,9 +45,10 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ### Notes:
 - This is a project under development
 - more features will be included.
+- I still haven't learned how to deploy this. If anyone knows, please feel free to send a message.
 
 
-###ScreenShots
+### ScreenShots
 ![image](https://github.com/user-attachments/assets/7de7579f-73ca-4613-8e9a-f8bc9e3c30c8)
 ![image](https://github.com/user-attachments/assets/72b84eb4-53e6-4a25-bf7b-fb8f0c4264e7)
 ![image](https://github.com/user-attachments/assets/71783523-6d32-4e1b-b5eb-00c04711802b)
