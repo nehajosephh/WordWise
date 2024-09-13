@@ -23,7 +23,7 @@ To run this Flask application locally:
 
 1. Clone the repository:
 ```
-git clone https://github.com/yourusername/your-repository.git
+git clone https://github.com/nehajosephh/WordWise.git
 cd your-repository
 ```
 2. Install dependencies using pip:
